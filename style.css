@@ -327,75 +327,8 @@ align-items: center;
 
 
 
-/* contact page */
 
 
-/* Contact Section */
-.contactSection{
-  background: #f5f5f5;
-  padding: 60px 20px;
-  text-align: center;
-  width: 100%;
-  display: flex;
- 
-}
-.contacts{
-  background: #f5f5f5;
-  padding: 60px 20px;
-  text-align: center;
-  width: 100%;
-  display: flex;
-  
-  
-}
-
-
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.contact-box {
-  width: 100%;
-  background: #fff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.contact-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.contact-box h3 {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-  color: #444;
-}
-
-.contact-box p {
-  font-size: 1rem;
-  color: #555;
-}
-
-.contact-map {
-  margin-top: 40px;
-}
-
-.contact-map iframe {
-  width: 100%;
-  height: 350px;
-  border-radius: 12px;
-  border: none;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-}
 
 
 
@@ -413,7 +346,7 @@ align-items: center;
  .contacts{
   width: 100%;
    
-     padding: 60px 20px;
+     padding:20px 20px;
 
  }
 
@@ -427,27 +360,55 @@ align-items: center;
   width: 100%;
   display: flex;
   flex-direction: column;
+  height: 800px;
 }
 
 .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   gap: 30px;
-  max-width: 1000px;
-  margin: auto;
+  max-width:100%;
+ 
+}
+.contact1{
+/* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 20px;
+}
+.contact2{
+/* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  gap: 20px;
+
 }
 
 .contact-box {
-  background: #fff;
-  padding: 30px;
+  background: hsl(0, 0%, 85%);
+  padding: 50px;
   border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+ 
   text-align: left;
+
 }
 
 .contact-box h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
+
   color: #333;
 }
 
@@ -463,15 +424,25 @@ align-items: center;
   margin-right: 10px;
 }
 
-.contact2 h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  color: #333;
+.contacts h3 {
+  font-size:1.5em;
+ 
+  color: #080609;
 }
 
 
 
 
+/* footer */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  width: 100%;
+
+}
 
 
 
