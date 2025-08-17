@@ -12,6 +12,9 @@ const observer = new IntersectionObserver((entries) => {
 
     document.querySelectorAll(".animate-text").forEach(el => observer.observe(el));
   
+
+
+    
     // cursor movement
 
     let inCursor=document.querySelector(".innerCursor");
