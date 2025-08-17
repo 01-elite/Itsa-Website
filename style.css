@@ -6,8 +6,13 @@
   --text-color: #ffffff;
   --background-color: #000708;
     --background-color2: #00070856;
+    --background-color3:#017387d9;
+ 
+      --background-color4: #0e191a56;
+         --background-color5:#b7f0fad9;
     --text-color2: #110f0f;
-    --text-color3: #870101;
+    --text-color3: #00eeff;
+     --text-color4: #454545;
 
 }
 
@@ -106,9 +111,9 @@ background-image: url("ITSAlogo.png");
 
 #s1{
   /* color: var(--primary-color); */
-  color: var(--primary-color);
+  color:var(--text-color);
   /* font-family: Arial, sans-serif; */
-  background-color: var(--text-color3);
+  background-color: var(--background-color3);
   border-radius: 40px 40px 1px 40px;
   padding: 15px 10px;
   
@@ -124,7 +129,7 @@ background-color: rgb(255, 255, 255);
   /* border: solid rgb(255, 255, 255)  1px; */
   border-radius: 90px;
   border: none;
-  box-shadow: #ff0000;
+ 
 
   
  }
@@ -206,7 +211,7 @@ background-blend-mode: darken;
   
 }
 #s2{
-    color: rgb(118, 1, 1);
+    color: var(--text-color3);
 }
 
 .box1 {
@@ -241,14 +246,14 @@ h3{
 /* event section */
 #eventH1{
     color: var(--text-color2);
-    margin: 20px;
+    margin: 40px;
 }
 .eventSection{
  color: var(--text-color2);
-  background-color: #ffffff;
+
 height: 1000px;
   width: 100%;
-  padding: 30px;
+ background-color: var(--background-color5);
   
 }
 .eventCard{
@@ -279,10 +284,41 @@ background-image: url("Poster.jpeg");
   border-radius: 15px;
 }
 .eventInfo{
+ 
    width: 100%;
   height: 50%;
+  padding: 30px;
   /* background-color: green;  */
+  text-align: left;
   
+}
+h5{
+  font-weight: 620;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+}
+.eventButton{
+  background-color: var(--background-color3);
+  color: var(--text-color);
+  padding: 14px;
+  opacity: 90%;
+  width: 100%;
+  border-radius: 8px;
+ border: none;
+ font-weight: 400;
+  font-size: 0.6em;
+}
+.p-4{
+      font-weight: 360;
+    font-size: 0.5em;
+    color: var(--text-color1);
+}
+
+.eventCards{
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+
 }
 
 
