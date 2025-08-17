@@ -4,30 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ITSA-SJCEM</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <div class="navbar">
+    <!-- <div class="navbar">
 <div id="nav-logo"><img class="above" src="ITSAlogo.png" alt="ITSA-SJCEM"></div>
+<button class="hamburger" id="hamburger">&#9776;</button>
 <div id="nav-links">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Event</a>
-    <a href="#">Team</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#event">Event</a>
+    <a href="#team">Team</a>
     
 </div>
-    </div>
+    </div> -->
+    <div class="navbar">
+  <div id="nav-logo">
+    <img class="above" src="ITSAlogo.png" alt="ITSA-SJCEM">
+  </div>
 
-    <div class="homeContent "> 
+  <!-- Hamburger button -->
+  <button class="hamburger" id="hamburger">&#9776;</button>
+
+  <!-- Navigation links -->
+  <div  class="nav-links" id="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#event">Event</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+
+    <div class="homeContent " id="home"> 
         <button class="noUse left"><p id="p-1">Students' Association</p></button>
         <h1 class="left">Welcome to <span id="s1">ITSA-SJCEM</span></h1>
-        <p id="p-2" class="left">ITSA empowers students to explore emerging technologies, 
+        <p id="p-2" class="left">ITSA empowers students to explore emerging technologies, <br>
             excel through hands-on events, and connect with professionals shaping the future.</p>
     </div>
 
     <!-- about -->
-<div class="aboutSection">
+<div class="aboutSection" id="about">
     <h1 id="aboutH1">About</h1>
 
 <div class="grid-container">
@@ -69,7 +89,7 @@
 </div>
 </div>
 <!-- Event section -->
-<div class="eventSection">
+<div class="eventSection" id="event">
     <h1 id="eventH1"> Event</h1>
 <div class="eventCard">
 <div id="card">
@@ -91,9 +111,10 @@
 
 
 <!-- team section -->
-<div class="teamSection">
-
+<div class="teamSection" id="team">
+      <h3>TEAM</h3>
     <div class="card">
+
         <div class="image"><img src="profile.jpg" ></div>
       
     </div>
@@ -104,8 +125,71 @@
 
 <div class="innerCursor"></div>
 <div class="outerCursor"></div>
+  <!-- contact section added  -->
+
+    <section id="contact" class=" contactsection">
+        <div class="container-2">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                
+                <div class="contact-info">
+                    
+                    <div class="contact-item">
+                        
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Village Vevoor, Manor Road, Palghar (East), Palghar District - 401404, Maharashtra, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 7058721858</p>
+                            <p>+91 91454 99937</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>itsa@sjcem.edu.in</p>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <h4>Location</h4>
+                        <iframe height="300px" width="300px" borderRadius="5px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15024.804552933576!2d72.781924!3d19.704059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71c92fbd91e67%3A0x2a3ce68676417a45!2sSt.%20John%20College%20of%20Engineering%20and%20Management!5e0!3m2!1sen!2sin!4v1755444183666!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/+91 91454 99937"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/itsa_sjcem/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/sjcem-itsa/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+
+                <!-- Contact Form -->
+                 
+                <!-- <form class="contact-form" action="https://formspree.io/f/mqaloqdk" method="POST">
+                    <h4>FORM</h4>
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <input type="text" name="subject" placeholder="Subject" required />
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button> -->
+
+                    
+                </form>
+            </div>
+        </div>
+    </section>
   </div>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="home.js"></script>
 </body>
 </html>
