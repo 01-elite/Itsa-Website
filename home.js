@@ -68,3 +68,15 @@ const observer = new IntersectionObserver((entries) => {
        outCursor.style.left=`${x}px`;
        outCursor.style.top=`${y}px`;
     }
+
+    //team
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1, 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop: true, // optional: infinite looping
+});
+
+
